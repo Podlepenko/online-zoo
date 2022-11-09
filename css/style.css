@@ -171,3 +171,45 @@ img {
     text-transform: uppercase;
     color: var(--color-white);
   }
+
+.about__top {
+  padding-top: 140px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+}
+
+.about__col-img {
+  width: 609px;
+  height: 403px;
+  backdrop-filter: blur(2px);
+}
+
+.about__col {
+  width: 465px;
+  height: 403px;
+}
+
+.about__title {
+  margin: 0;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+.about__descr {
+  margin: 0;
+  padding-bottom: 54px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.about__subtitle {
+  margin: 0;
+  padding-bottom: 34px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+}
