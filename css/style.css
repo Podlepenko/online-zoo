@@ -172,6 +172,18 @@ img {
     color: var(--color-white);
   }
 
+  .about {
+    max-height: 1829px;
+  }
+
+  .about-flowers__right {
+    float: right;
+  }
+
+  .about-flowers__left {
+    float: left;
+  }
+
 .about__top {
   padding-top: 140px;
   display: grid;
@@ -214,12 +226,16 @@ img {
   line-height: 120%;
 }
 
+.about-catalog {
+  margin-top: 160px;
+}
+
 .about-catalog__list {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  margin-top: 180px;
+  padding-top: 20px;
 }
 
 .one {
@@ -232,6 +248,18 @@ img {
 
 .three {
   background-image: url(/img/Catalog_three.jpg);
+}
+
+.four {
+  background-image: url(/img/Catalog_four.jpg);
+}
+
+.five {
+  background-image: url(/img/Catalog_five.jpg);
+}
+
+.six {
+  background-image: url(/img/Catalog_six.jpg);
 }
 
 .catalog-item__col {
@@ -262,3 +290,28 @@ img {
   line-height: 120%;
 }
 
+
+.icon__banana {
+  position: relative;
+  left: 320px;
+  bottom: 35px;
+}
+
+.icon__meet {
+  position: relative;
+  left: 310px;
+  bottom: 35px;
+}
+
+.about__btn {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 298px;
+}
+
+.feed {
+  max-height: 1004px;
+  background-color: var(--color-orang_gradient);
+}
