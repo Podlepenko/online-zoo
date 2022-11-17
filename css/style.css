@@ -172,7 +172,7 @@ img {
     color: var(--color-white);
   }
 
-  .about {
+  .about__container {
     max-height: 1829px;
   }
 
@@ -180,9 +180,17 @@ img {
     float: right;
   }
 
-  .about-flowers__left {
-    float: left;
+  /* .about-flowers__left {
+    position: absolute;
+    width: 255px;
+    top: 2210px;
   }
+
+  .about-flowers__bottom {
+    position: absolute;
+    left: 1150px;
+    top: 2335px;
+  } */
 
 .about__top {
   padding-top: 140px;
@@ -239,27 +247,27 @@ img {
 }
 
 .one {
-  background-image: url(/img/Catalog_one.jpg);
+  background-image: url(../img/Catalog_one.jpg);
 }
 
 .two {
-  background-image: url(/img/Catalog_two.jpg);
+  background-image: url(../img/Catalog_two.jpg);
 }
 
 .three {
-  background-image: url(/img/Catalog_three.jpg);
+  background-image: url(../img/Catalog_three.jpg);
 }
 
 .four {
-  background-image: url(/img/Catalog_four.jpg);
+  background-image: url(../img/Catalog_four.jpg);
 }
 
 .five {
-  background-image: url(/img/Catalog_five.jpg);
+  background-image: url(../img/Catalog_five.jpg);
 }
 
 .six {
-  background-image: url(/img/Catalog_six.jpg);
+  background-image: url(../img/Catalog_six.jpg);
 }
 
 .catalog-item__col {
@@ -313,5 +321,23 @@ img {
 
 .feed {
   max-height: 1004px;
-  background-color: var(--color-orang_gradient);
+  padding-top: 69px;
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  opacity: 0.9;
+}
+
+.feed__field {
+  margin-top: 69px;
+  height: 835px;
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+}
+
+.feed__field h3 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--color-orang);
 }
