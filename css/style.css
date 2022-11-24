@@ -90,12 +90,9 @@ img {
   }
 
   .logo {
-    /* margin-right: 63px; */
-    position: absolute;
+    padding-top: 14px;
     width: 82px;
     height: 52px;
-    left: 220px;
-    top: 14px;
   }
 
   .copyright {
@@ -498,4 +495,138 @@ img {
   font-size: 15px;
   line-height: 120%;
   color: #767474;
+}
+
+.reviews__btn {
+  padding-top: 60px;
+  padding-bottom: 180px;
+}
+
+.rectangle__btn {
+  width: 298px;
+  height: 54px;
+  background: var(--color-orang_gradient);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.footer {
+  width: 100%;
+  height: 450px;
+  background: var(--color-black);
+  backdrop-filter: blur(2px);
+}
+
+.footer__list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__btn {
+  padding-top: 161px;
+}
+
+.footer__logo {
+  position: absolute;
+  top: 40px;
+}
+
+.footer__title {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #FFFFFF
+}
+
+.footer__col {
+  padding: 0;
+  display: flex;
+}
+
+.footer__input {
+  padding-right: 10px;
+}
+
+.footer__form {
+  width: 228px;
+}
+
+.footer__email {
+  border: 1px solid var(--color-orang);
+  border-radius: 5px;
+  padding: 9px 10px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.08em;
+  color: var(--color-Light_gray);
+  background-color: transparent;
+}
+
+.input__btn {
+  width: 129px;
+  height: 42px;
+  background: var(--color-Light_gray);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--color-green);
+  border: 2px solid var(--color-green);
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-top: 40px;
+}
+
+.social {
+  color: #E0D8F0;
+}
+
+.social-item__col {
+  display: flex;
+}
+
+.social__icon {
+  padding-right: 10px;
+}
+
+.social__icon img {
+  padding-top: 16px;
+}
+
+.footer__nav {
+  padding-top: 90px;
+}
+
+.nav-footer__list {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 29px;
+  margin-left: 120px;
+}
+
+.footer__small {
+  padding-top: 110px;
+}
+
+.footer__copyright {
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 130%;
+  color: #FFFFFF;
 }
