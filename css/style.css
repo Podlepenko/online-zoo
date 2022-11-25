@@ -593,20 +593,17 @@ img {
   padding-top: 40px;
 }
 
-.social {
+.social-item__icon {
+  padding: 0;
+}
+
+.social-item__img:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.social__link {
+  padding-left: 10px;
   color: #E0D8F0;
-}
-
-.social-item__col {
-  display: flex;
-}
-
-.social__icon {
-  padding-right: 10px;
-}
-
-.social__icon img {
-  padding-top: 16px;
 }
 
 .footer__nav {
