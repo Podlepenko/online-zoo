@@ -87,6 +87,11 @@ img {
     font-size: 16px;
     line-height: 140%;
     color: var(--color-white);
+    transition: color 0.3s ease-in-out;
+  }
+
+  .nav__link:hover {
+    color: var(--color-orang);
   }
 
   .logo {
@@ -113,7 +118,6 @@ img {
     padding-top: 86px;
     padding-bottom: 40px;
     height: 110vh;
-    /* min-height: 780px; */
     background-image: url("../img/hero-cover.jpg");
     background-position: center;
     background-size: cover;
@@ -167,6 +171,19 @@ img {
     text-align: center;
     text-transform: uppercase;
     color: var(--color-white);
+    transition: all 0.5s ease;
+  }
+
+  .btn:hover {
+    background: var(--color-orang);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	  transform: scale(1.1);
+  }
+
+  .btn:active {
+    background: var(--color-green);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	  transform: scale(1.1);
   }
 
   .about__container {
@@ -513,6 +530,19 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: var(--color-white);
+  transition: all 0.5s ease;
+}
+
+.rectangle__btn:hover {
+  background: var(--color-orang);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  transform: scale(1.1);
+}
+
+.rectangle__btn:active {
+  background: var(--color-green);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  transform: scale(1.1);
 }
 
 .footer {
@@ -582,6 +612,12 @@ img {
   font-size: 16px;
   line-height: 140%;
   text-align: center;
+  color: var(--color-black);
+  border: 2px solid;
+  transition: all 0.5s ease;
+}
+
+.input__btn:hover {
   color: var(--color-green);
   border: 2px solid var(--color-green);
 }
@@ -646,6 +682,11 @@ img {
   padding-left: 10px;
   padding-top: 6px;
   color: #E0D8F0;
+  transition: color 0.3s ease-in-out;
+}
+
+.social__link:hover {
+  color: var(--color-orang);
 }
 
 .footer__nav {
